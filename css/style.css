@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/vetores-premium/fundo-simples-com-tema-de-frutas_405287-22.jpg?w=2000);
+}
+
+header {
+    background-color: #599412;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+span {
+    display: block;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.testemunhos {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.testemunhos h2 {
+    text-align: center;
+    color: #333;
+}
+
+.testemunhos span {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.testemunhos span img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+@media (max-width: 768px) {
+  
+    article,
+    span,
+    .testemunhos,
+    .form-container {
+        padding: 15px;
+    }
+
+    .testemunhos span img {
+        width: 70px;
+    }
+}
+
+header p {
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #599412;
+    font-size: 20px;
+}
