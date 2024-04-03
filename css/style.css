@@ -127,7 +127,7 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 768px) {
-  
+
     article,
     span,
     .testemunhos,
@@ -151,4 +151,26 @@ footer {
     background-color: #599412;
     font-size: 20px;
     padding: 10px;
+}
+
+dialog {
+    background: #599412;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    width: 25%;
+    padding: 30px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+button {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
